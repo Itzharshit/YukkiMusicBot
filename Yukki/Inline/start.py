@@ -8,19 +8,19 @@ from Yukki import BOT_USERNAME
 def setting_markup2():
     buttons = [
         [
-            InlineKeyboardButton(text="❰𝘼𝙪𝙙𝙞𝙤 𝙌𝙪𝙖𝙡𝙞𝙩𝙮❱", callback_data="AQ"),
-            InlineKeyboardButton(text="❰𝘼𝙪𝙙𝙞𝙤 𝙑𝙤𝙡𝙪𝙢𝙚❱", callback_data="AV"),
+            InlineKeyboardButton(text="🔈 Audio Quality", callback_data="AQ"),
+            InlineKeyboardButton(text="🎚 Audio Volume", callback_data="AV"),
         ],
         [
             InlineKeyboardButton(
-                text="❰𝘼𝙪𝙩𝙝𝙤𝙧𝙞𝙯𝙚𝙙 𝙐𝙨𝙚𝙧𝙨❱", callback_data="AU"
+                text="👥 Authorized Users", callback_data="AU"
             ),
             InlineKeyboardButton(
-                text="❰𝘿𝙖𝙨𝙝𝙗𝙤𝙖𝙧𝙙❱", callback_data="Dashboard"
+                text="💻 Dashboard", callback_data="Dashboard"
             ),
         ],
         [
-            InlineKeyboardButton(text="❰𝗖𝗹𝗼𝘀𝗲❱", callback_data="close"),
+            InlineKeyboardButton(text="✖️ Close", callback_data="close"),
         ],
     ]
     return f"🔧  **{MUSIC_BOT_NAME} Settings**", buttons
@@ -31,12 +31,12 @@ def start_pannel():
         buttons = [
             [
                 InlineKeyboardButton(
-                    text="❰𝘾𝙤𝙢𝙢𝙖𝙣𝙙𝙨❱", callback_data="shikhar"
+                    text="🗂 Helper Commands Menu", callback_data="shikhar"
                 ),
             ],
             [
                 InlineKeyboardButton(
-                    text="❰🔧 𝙎𝙚𝙩𝙩𝙞𝙣𝙜𝙨❱", callback_data="settingm"
+                    text="🔧 Settings", callback_data="settingm"
                 )
             ],
         ]
@@ -45,17 +45,17 @@ def start_pannel():
         buttons = [
             [
                 InlineKeyboardButton(
-                    text="❰𝘾𝙤𝙢𝙢𝙖𝙣𝙙𝙨❱", callback_data="shikhar"
+                    text="🗂 Helper Commands Menu", callback_data="shikhar"
                 ),
             ],
             [
                 InlineKeyboardButton(
-                    text="❰🔧 𝙎𝙚𝙩𝙩𝙞𝙣𝙜𝙨❱", callback_data="settingm"
+                    text="🔧 Settings", callback_data="settingm"
                 )
             ],
             [
                 InlineKeyboardButton(
-                    text="❰𝙂𝙧𝙤𝙪𝙥❱", url=f"{SUPPORT_GROUP}"
+                    text="📨Support Group", url=f"{SUPPORT_GROUP}"
                 ),
             ],
         ]
@@ -64,17 +64,17 @@ def start_pannel():
         buttons = [
             [
                 InlineKeyboardButton(
-                    text="❰𝘾𝙤𝙢𝙢𝙖𝙣𝙙𝙨❱", callback_data="shikhar"
+                    text="🗂 Helper Commands Menu", callback_data="shikhar"
                 ),
             ],
             [
                 InlineKeyboardButton(
-                    text="❰🔧 𝙎𝙚𝙩𝙩𝙞𝙣𝙜𝙨❱", callback_data="settingm"
+                    text="🔧 Settings", callback_data="settingm"
                 )
             ],
             [
                 InlineKeyboardButton(
-                    text="❰𝙊𝙬𝙣𝙚𝙧❱", url=f"{SUPPORT_CHANNEL}"
+                    text="📨Official Channel", url=f"{SUPPORT_CHANNEL}"
                 ),
             ],
         ]
@@ -83,20 +83,20 @@ def start_pannel():
         buttons = [
             [
                 InlineKeyboardButton(
-                    text="❰𝘾𝙤𝙢𝙢𝙖𝙣𝙙𝙨❱", callback_data="shikhar"
+                    text="🗂 Helper Commands Menu", callback_data="shikhar"
                 ),
             ],
             [
                 InlineKeyboardButton(
-                    text="❰🔧 𝙎𝙚𝙩𝙩𝙞𝙣𝙜𝙨❱", callback_data="settingm"
+                    text="🔧 Settings", callback_data="settingm"
                 )
             ],
             [
                 InlineKeyboardButton(
-                    text="❰𝙊𝙬𝙣𝙚𝙧❱", url=f"{SUPPORT_CHANNEL}"
+                    text="📨Official Channel", url=f"{SUPPORT_CHANNEL}"
                 ),
                 InlineKeyboardButton(
-                    text="❰𝙂𝙧𝙤𝙪𝙥❱", url=f"{SUPPORT_GROUP}"
+                    text="📨Support Group", url=f"{SUPPORT_GROUP}"
                 ),
             ],
         ]
@@ -108,12 +108,12 @@ def private_panel():
         buttons = [
             [
                 InlineKeyboardButton(
-                    text="❰𝘾𝙤𝙢𝙢𝙖𝙣𝙙𝙨❱", callback_data="shikhar"
+                    text="🗂 Helper Commands Menu", callback_data="shikhar"
                 ),
             ],
             [
                 InlineKeyboardButton(
-                    "❰➕ 𝘼𝙙𝙙 𝙢𝙚 𝙩𝙤 𝙮𝙤𝙪𝙧 𝙂𝙧𝙤𝙪𝙥❱",
+                    "➕ Add me to your Group",
                     url=f"https://t.me/{BOT_USERNAME}?startgroup=true",
                 )
             ],
@@ -123,18 +123,18 @@ def private_panel():
         buttons = [
             [
                 InlineKeyboardButton(
-                    text="❰𝘾𝙤𝙢𝙢𝙖𝙣𝙙𝙨❱", callback_data="shikhar"
+                    text="🗂 Helper Commands Menu", callback_data="shikhar"
                 ),
             ],
             [
                 InlineKeyboardButton(
-                    "❰➕ 𝘼𝙙𝙙 𝙢𝙚 𝙩𝙤 𝙮𝙤𝙪𝙧 𝙂𝙧𝙤𝙪𝙥❱",
+                    "➕ Add me to your Group",
                     url=f"https://t.me/{BOT_USERNAME}?startgroup=true",
                 )
             ],
             [
                 InlineKeyboardButton(
-                    text="❰𝙂𝙧𝙤𝙪𝙥❱", url=f"{SUPPORT_GROUP}"
+                    text="📨Support Group", url=f"{SUPPORT_GROUP}"
                 ),
             ],
         ]
@@ -143,18 +143,18 @@ def private_panel():
         buttons = [
             [
                 InlineKeyboardButton(
-                    text="❰𝘾𝙤𝙢𝙢𝙖𝙣𝙙𝙨❱", callback_data="shikhar"
+                    text="🗂 Helper Commands Menu", callback_data="shikhar"
                 ),
             ],
             [
                 InlineKeyboardButton(
-                    "❰➕ 𝘼𝙙𝙙 𝙢𝙚 𝙩𝙤 𝙮𝙤𝙪𝙧 𝙂𝙧𝙤𝙪𝙥❱",
+                    "➕ Add me to your Group",
                     url=f"https://t.me/{BOT_USERNAME}?startgroup=true",
                 )
             ],
             [
                 InlineKeyboardButton(
-                    text="❰𝙊𝙬𝙣𝙚𝙧❱", url=f"{SUPPORT_CHANNEL}"
+                    text="📨Official Channel", url=f"{SUPPORT_CHANNEL}"
                 ),
             ],
         ]
@@ -163,21 +163,21 @@ def private_panel():
         buttons = [
             [
                 InlineKeyboardButton(
-                    text="❰𝘾𝙤𝙢𝙢𝙖𝙣𝙙𝙨❱", callback_data="shikhar"
+                    text="🗂 Helper Commands Menu", callback_data="shikhar"
                 ),
             ],
             [
                 InlineKeyboardButton(
-                    "❰➕ 𝘼𝙙𝙙 𝙢𝙚 𝙩𝙤 𝙮𝙤𝙪𝙧 𝙂𝙧𝙤𝙪𝙥❱",
+                    "➕ Add me to your Group",
                     url=f"https://t.me/{BOT_USERNAME}?startgroup=true",
                 )
             ],
             [
                 InlineKeyboardButton(
-                    text="❰𝙊𝙬𝙣𝙚𝙧❱", url=f"{SUPPORT_CHANNEL}"
+                    text="📨Official Channel", url=f"{SUPPORT_CHANNEL}"
                 ),
                 InlineKeyboardButton(
-                    text="❰𝙂𝙧𝙤𝙪𝙥❱", url=f"{SUPPORT_GROUP}"
+                    text="📨Support Group", url=f"{SUPPORT_GROUP}"
                 ),
             ],
         ]
@@ -187,20 +187,20 @@ def private_panel():
 def setting_markup():
     buttons = [
         [
-            InlineKeyboardButton(text="❰𝘼𝙪𝙙𝙞𝙤 𝙌𝙪𝙖𝙡𝙞𝙩𝙮❱", callback_data="AQ"),
-            InlineKeyboardButton(text="❰𝘼𝙪𝙙𝙞𝙤 𝙑𝙤𝙡𝙪𝙢𝙚❱", callback_data="AV"),
+            InlineKeyboardButton(text="🔈 Audio Quality", callback_data="AQ"),
+            InlineKeyboardButton(text="🎚 Audio Volume", callback_data="AV"),
         ],
         [
             InlineKeyboardButton(
-                text="❰𝘼𝙪𝙙𝙞𝙤 𝙑𝙤𝙡𝙪𝙢𝙚❱", callback_data="AU"
+                text="👥 Authorized Users", callback_data="AU"
             ),
             InlineKeyboardButton(
-                text="❰𝘿𝙖𝙨𝙝𝙗𝙤𝙖𝙧𝙙❱", callback_data="Dashboard"
+                text="💻 Dashboard", callback_data="Dashboard"
             ),
         ],
         [
-            InlineKeyboardButton(text="❰𝗖𝗹𝗼𝘀𝗲❱", callback_data="close"),
-            InlineKeyboardButton(text="❰𝙂𝙤 𝙗𝙖𝙘𝙠❱", callback_data="okaybhai"),
+            InlineKeyboardButton(text="✖️ Close", callback_data="close"),
+            InlineKeyboardButton(text="🔙 Go Back", callback_data="okaybhai"),
         ],
     ]
     return f"🔧  **{MUSIC_BOT_NAME} Settings**", buttons
